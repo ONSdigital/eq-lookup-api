@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-slim-stretch
 
 RUN pip install pipenv==8.2.7 \
   && pip install gunicorn==19.7.1 \
